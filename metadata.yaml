@@ -1,0 +1,92 @@
+_repo: Five-Weeks-in-a-Balloon--13-Or-Journeys-and-Discoveries-in-Africa-by-Three-Englishmen_3526
+_version: 0.0.1
+alternative_title: Cinq semaines en ballon. English
+creator:
+  author:
+    agent_name: Verne, Jules
+    aliases:
+    - Verne, Jules Gabriël
+    - Verne, Júlio
+    - Verne, Jules Gabriel
+    birthdate: 1828
+    deathdate: 1905
+    gutenberg_agent_id: '60'
+    url: http://www.gutenberg.org/2009/agents/60
+    wikipedia:
+    - http://pt.wikipedia.org/wiki/Júlio_Verne
+    - http://en.wikipedia.org/wiki/Jules_Verne
+    - http://fr.wikipedia.org/wiki/Jules_Verne
+description: "Five Weeks in a Balloon, or, Journeys and Discoveries in Africa by Three\
+  \ Englishmen (French: Cinq semaines en ballon) is an adventure novel by Jules Verne,\
+  \ published in 1863. It is the first novel in which he perfected the \"ingredients\"\
+  \ of his later work, skillfully mixing a plot full of adventure and twists that\
+  \ hold the reader's interest with passages of technical, geographic, and historic\
+  \ description. The book gives readers a glimpse of the exploration of Africa, which\
+  \ was still not completely known to Europeans of the time, with explorers traveling\
+  \ all over the continent in search of its secrets.\nPublic interest in fanciful\
+  \ tales of African exploration was at its height, and the book was an instant hit;\
+  \ it made Verne financially independent and got him a contract with Jules Hetzel's\
+  \ publishing house, which put out several dozen more works of his for over forty\
+  \ years afterward.\n\n\n From Wikipedia (CC BY-SA)."
+gutenberg_bookshelf:
+- Adventure
+- Movie Books
+gutenberg_issued: '2002-11-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '3526'
+  wikidata: Q622634
+language: en
+publication_note: 'New York :  Appleton & Co.,  1869'
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Africa -- Fiction'
+- !lcsh 'Balloons -- Fiction'
+- !lcsh 'Travel -- Fiction'
+- !lcsh 'Science fiction'
+- !lcsh 'Adventure stories'
+- !lcc 'PQ'
+- GITenberg
+title: "Five Weeks in a Balloon\r\nOr, Journeys and Discoveries in Africa by Three\
+  \ Englishmen"
+url: http://www.gutenberg.org/ebooks/3526
+wikipedia:
+- https://fa.wikipedia.org/wiki/%D9%BE%D9%86%D8%AC_%D9%87%D9%81%D8%AA%D9%87_%D8%AF%D8%B1_%D8%A8%D8%A7%D9%84%D9%86
+- https://mn.wikipedia.org/wiki/%D0%90%D0%B3%D0%B0%D0%B0%D1%80%D1%8B%D0%BD_%D0%B1%D3%A9%D0%BC%D0%B1%D3%A9%D0%BB%D0%B3%D3%A9%D3%A9%D1%80_5_%D0%B4%D0%BE%D0%BB%D0%BE%D0%BE_%D1%85%D0%BE%D0%BD%D0%BE%D0%B3_%D0%B0%D1%8F%D0%BB%D1%81%D0%B0%D0%BD_%D0%BD%D1%8C
+- https://en.wikisource.org/wiki/Five_Weeks_in_a_Balloon
+- https://uk.wikipedia.org/wiki/%D0%9F%27%D1%8F%D1%82%D1%8C_%D1%82%D0%B8%D0%B6%D0%BD%D1%96%D0%B2_%D0%BD%D0%B0_%D0%BF%D0%BE%D0%B2%D1%96%D1%82%D1%80%D1%8F%D0%BD%D1%96%D0%B9_%D0%BA%D1%83%D0%BB%D1%96
+- https://el.wikipedia.org/wiki/%CE%A0%CE%AD%CE%BD%CF%84%CE%B5_%CE%B5%CE%B2%CE%B4%CE%BF%CE%BC%CE%AC%CE%B4%CE%B5%CF%82_%CE%BC%CE%B5_%CE%B1%CE%B5%CF%81%CF%8C%CF%83%CF%84%CE%B1%CF%84%CE%BF
+- https://gl.wikipedia.org/wiki/Cinco_semanas_en_globo
+- https://fr.wikisource.org/wiki/Cinq_Semaines_en_ballon
+- https://sv.wikipedia.org/wiki/Fem_veckor_i_en_ballong
+- https://ja.wikipedia.org/wiki/%E6%B0%97%E7%90%83%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%A6%E4%BA%94%E9%80%B1%E9%96%93
+- https://pt.wikipedia.org/wiki/Cinq_semaines_en_ballon
+- https://sr.wikipedia.org/wiki/%D0%9F%D0%B5%D1%82_%D0%BD%D0%B5%D0%B4%D0%B5%D1%99%D0%B0_%D1%83_%D0%B1%D0%B0%D0%BB%D0%BE%D0%BD%D1%83
+- https://es.wikipedia.org/wiki/Cinco_semanas_en_globo
+- https://sk.wikipedia.org/wiki/P%C3%A4%C5%A5_t%C3%BD%C5%BEd%C5%88ov_v_bal%C3%B3ne
+- https://en.wikipedia.org/wiki/Five_Weeks_in_a_Balloon
+- https://io.wikipedia.org/wiki/Kin_semani_en_balono
+- https://ru.wikipedia.org/wiki/%D0%9F%D1%8F%D1%82%D1%8C_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D0%BE%D0%BC_%D1%88%D0%B0%D1%80%D0%B5
+- https://ro.wikipedia.org/wiki/Cinci_s%C4%83pt%C4%83m%C3%A2ni_%C3%AEn_balon
+- https://fr.wikipedia.org/wiki/Cinq_semaines_en_ballon
+- https://sh.wikipedia.org/wiki/Cinq_semaines_en_ballon
+- https://bs.wikipedia.org/wiki/Pet_sedmica_u_balonu
+- https://pl.wikipedia.org/wiki/Pi%C4%99%C4%87_tygodni_w_balonie
+- https://hu.wikipedia.org/wiki/%C3%96t_h%C3%A9t_l%C3%A9ghaj%C3%B3n
+- https://es.wikisource.org/wiki/Cinco_semanas_en_globo
+- https://ru.wikiquote.org/wiki/%D0%9F%D1%8F%D1%82%D1%8C_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D0%BE%D0%BC_%D1%88%D0%B0%D1%80%D0%B5
+- https://da.wikipedia.org/wiki/Fem_uger_i_ballon
+- https://ar.wikipedia.org/wiki/%D8%AE%D9%85%D8%B3%D8%A9_%D8%A3%D8%B3%D8%A7%D8%A8%D9%8A%D8%B9_%D9%81%D9%8A_%D9%85%D9%86%D8%B7%D8%A7%D8%AF
+- https://nl.wikipedia.org/wiki/Vijf_weken_in_een_luchtballon
+- https://id.wikipedia.org/wiki/Cinq_semaines_en_ballon
+- https://hu.wikisource.org/wiki/%C3%96t_h%C3%A9t_l%C3%A9ghaj%C3%B3n
+- https://cs.wikipedia.org/wiki/P%C4%9Bt_ned%C4%9Bl_v_balon%C4%9B
+- https://de.wikipedia.org/wiki/F%C3%BCnf_Wochen_im_Ballon
+- https://lt.wikipedia.org/wiki/Penkios_savait%C4%97s_oro_balionu
+- https://eu.wikipedia.org/wiki/Bost_aste_globoan
+- https://hy.wikipedia.org/wiki/%D5%80%D5%AB%D5%B6%D5%A3_%D5%B7%D5%A1%D5%A2%D5%A1%D5%A9_%D6%85%D5%A4%D5%A1%D5%BA%D5%A1%D6%80%D5%AB%D5%AF%D5%B8%D5%BE
+- https://it.wikipedia.org/wiki/Cinque_settimane_in_pallone
+- https://tr.wikipedia.org/wiki/Balonla_Be%C5%9F_Hafta
+- https://he.wikipedia.org/wiki/%D7%97%D7%9E%D7%99%D7%A9%D7%94_%D7%A9%D7%91%D7%95%D7%A2%D7%95%D7%AA_%D7%91%D7%9B%D7%93%D7%95%D7%A8_%D7%A4%D7%95%D7%A8%D7%97
