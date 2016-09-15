@@ -1,0 +1,61 @@
+sudo: required
+dist: trusty
+language: ruby
+
+before_install:
+before_install:
+- gem install asciidoctor -v 1.5.2
+- gem install tilt
+- sudo pip install git+https://github.com/gitenberg-dev/gitberg
+- sudo pip install pillow
+- sudo pip install cssutils
+- sudo pip install docutils
+- sudo pip install roman
+- sudo pip install git+https://github.com/gitenberg-dev/pg-epubmaker
+script:
+- VERSION=`ruby -e "require 'yaml'; meta = YAML.load_file('metadata.yaml'); puts meta['_version'];"`
+- git clone https://github.com/gitenberg-dev/asciidoctor-htmlbook.git
+- sudo pip install -r asciidoctor-htmlbook/gitberg-machine/requirements.txt
+
+- /usr/bin/python -c "from gitenberg import travis; travis.build_epub()"
+- ebook-convert book.epub book.mobi
+- xvfb-run ebook-convert book.epub book.pdf
+branches:
+  only:
+  - master
+notifications:
+  webhooks:
+    urls:
+      - https://unglue.it/api/travisci/webhook
+    on_success: always
+    on_failure: never
+    on_start: never
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: ZMnZ+z2gHSTZVJcAK1a6jDTMo1G/G344tRvCvAJ/qOTlxSFU51/QgG4ZXNPudrHox54noImaEnjH0SSfgxi0ZDACkq3P7IqI47GzyX2U2xbYUoyov94r5SudN+5lZrEtaiiSqFRhgKuK/lZepXXXAVhR5EmSrK1HHJPWjZCgEOfKw0+djljPTkd1QtssV3ORy1YVuDkQS1vjmUPaiz/QinFWANd8YEUNMeOdut6DzuJZ7q3Je3xXnLdwlDoTFWYGRSuIyNcOEB8Yqp9cX76E6IxdndYUH48qp0qIQCarp25ObGyXzkZbWLa6q3pWLTMZTzkb5GeuR36ZrXUNqjJQkS1cwybsoxKFbiosijOFdvPy+BO85mBB4vWsGJQLO8OQZImcQ2NNeu+9zx9jcNqsJo0spKM2EyL1ybI+0dPxUdbABcOX+uPG5GkZv4DDKsmdIRItvlBvvRSpGZzkS/xdHUIuh4UNJQxKKeln26nmXd/UO126c9BznxnmaonpC/7/zPYbBOP0QVBVH858au0t96646HsRqo8kDY/FJwQsUPUZi4ZzKyIaM8NKc4+PPpeEXSqAVsqmDNXK46biHYCEv0h21kfU48B6mURqq0Ij1JF8bvusu/fR+KMbi0mnUGy5s5EJvEq1skh+mhtEEm6JTU2q/kjkC+e0gvBhO2nch+M=
+  file:
+    - book.epub
+    - book.mobi
+    - book.pdf
+  "on":
+    repo: GITenberg/Five-Weeks-in-a-Balloon--13-Or-Journeys-and-Discoveries-in-Africa-by-Three-Englishmen_3526
+addons:
+  apt:
+    packages:
+    - xsltproc
+    - xvfb
+    - calibre
+    - python-pip
+    - git
+    - python-dev
+    - libjpeg-dev
+    - libpng-dev
+    - libfreetype6
+    - libfreetype6-dev
+    - zlib1g-dev
+    - python-lxml
+    - libxml2-dev
+    - libxslt1-dev
+    - tidy
