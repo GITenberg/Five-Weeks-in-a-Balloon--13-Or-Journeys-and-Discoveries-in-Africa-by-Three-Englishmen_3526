@@ -1,6 +1,9 @@
 _repo: Five-Weeks-in-a-Balloon--13-Or-Journeys-and-Discoveries-in-Africa-by-Three-Englishmen_3526
-_version: 0.1.0
+_version: 0.2.0
 alternative_title: Cinq semaines en ballon. English
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   author:
     agent_name: Verne, Jules
@@ -28,6 +31,8 @@ description: "Five Weeks in a Balloon, or, Journeys and Discoveries in Africa by
   \ it made Verne financially independent and got him a contract with Jules Hetzel's\
   \ publishing house, which put out several dozen more works of his for over forty\
   \ years afterward.\n\n\n From Wikipedia (CC BY-SA)."
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/3526#Five-Weeks-in-a-Balloon--13-Or-Journeys-and-Discoveries-in-Africa-by-Three-Englishmen
 gutenberg_bookshelf:
 - Adventure
 - Movie Books
